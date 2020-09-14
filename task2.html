@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function getWorthyWorkers(osl){
+          let mut=[];
+          for (var i=0;i<osl.length; i++){
+          if (osl[i].salary>1000){
+            mut.push(osl[i].name)}
+            else
+                {continue}       
+      };
+      return console.log(mut)
+    }
+    const workers = [
+		{"name":"John","salary":500},
+		{"name":"Mike","salary":1300},
+        {"name":"Linda","salary":1500}];
+        var richWorkers=getWorthyWorkers(workers);
+    </script>
+</body>
+</html>
