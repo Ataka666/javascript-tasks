@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const getVowels = []
+const string = "Привет! Как дела?";
+for (var i=0; i<string.length; i++){
+    var array=['а','е', "у", "ы", "о", "э", "я", "и", "ю"];
+    for (var m=0; m<array.length; m++){
+        if (string[i]==array[m]){
+            getVowels.push(string[i])
+            // console.log(string[i]);
+        }
+        else{
+        }
+    }
+}
+console.log(getVowels);
+    </script>
+</body>
+</html>
